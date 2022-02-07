@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     public float scrollSpeed = -1.5f;
     private int score = 0; 
     
+   
     void Awake()
     {
         if (instance == null)
